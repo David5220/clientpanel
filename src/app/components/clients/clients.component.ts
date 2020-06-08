@@ -15,7 +15,7 @@ export class ClientsComponent implements OnInit {
   ngOnInit(): void {
     // this.clientService.getX().forEach(element => {
     //   console.log(element);
-    // });
+    // });11111
     
       this.clientService.getClients().subscribe(client =>
         console.log(client));
